@@ -7,25 +7,34 @@ Time spent: **4** hours spent in total
 ## Pentesting Report
 
 1. (Required) 4.0-4.7.2 - Authenticated Stored Cross-Site Scripting (XSS) in YouTube URL Embeds
-  - [ ] Summary: 
+  - [x] Summary: 
     - Vulnerability types: XSS
     - Tested in version: 4.1
     - Fixed in version: 4.213
   - [ ] GIF Walkthrough: 
-  - [ ] Steps to recreate: 
-  * Login
-  * Create a new post with any youtube link embed and append XSS payload at end (escaped)
-  * Ex: [embed src='https://youtube.com/embed/link\x3csvg onload=alert(1)\x3e'][/embed]
+  - [x] Steps to recreate: 
+    * Login
+    * Create a new post with any youtube link embed and append XSS payload at end (escaped)
+    * Ex: [embed src='https://youtube.com/embed/link\x3csvg onload=alert(1)\x3e'][/embed]
   
-1. (Required) Vulnerability Name or ID
+  - [x] Affected source code:
+    - [Link 1](https://github.com/WordPress/WordPress/commit/f72b21af23da6b6d54208e5c1d65ececdaa109c8)
+  
+2. (Required) Authenticated Stored Cross-Site Scripting (XSS Shortcode)
   - [ ] Summary: 
-    - Vulnerability types:
-    - Tested in version:
-    - Fixed in version: 
+    - Vulnerability types:XSS
+    - Tested in version:4.1
+    - Fixed in version: 4.2.3
   - [ ] GIF Walkthrough: 
   - [ ] Steps to recreate: 
+    * Make a new text post
+    * Escape HTML tag with shortcode tag and insert XSS payload
+  - [x] Affected source code:
+    - [Link 2](https://github.com/WordPress/WordPress/commit/f72b21af23da6b6d54208e5c1d65ececdaa109c8)
+    
+    
   
-1. (Required) Vulnerability Name or ID
+3. (Required) Vulnerability Name or ID
   - [ ] Summary: 
     - Vulnerability types:
     - Tested in version:
