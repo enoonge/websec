@@ -13,9 +13,9 @@ Time spent: **4** hours spent in total
     - Fixed in version: 4.213
   - [ ] GIF Walkthrough: 
   - [ ] Steps to recreate: 
-      -Login
-      -Create a new post with any youtube link embed and append XSS payload at end (escaped)
-      -Ex: [embed src='https://youtube.com/embed/link\x3csvg onload=alert(1)\x3e'][/embed]
+      *Login
+      *Create a new post with any youtube link embed and append XSS payload at end (escaped)
+      *Ex: [embed src='https://youtube.com/embed/link\x3csvg onload=alert(1)\x3e'][/embed]
   
 1. (Required) Vulnerability Name or ID
   - [ ] Summary: 
