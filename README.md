@@ -1,11 +1,22 @@
 # Project 7 - WordPress Pentesting
 
-Time spent: **X** hours spent in total
+Time spent: **4** hours spent in total
 
 > Objective: Find, analyze, recreate, and document **three or more vulnerabilities (up to five)** affecting an old version of WordPress
 
 ## Pentesting Report
 
+1. (Required) 4.0-4.7.2 - Authenticated Stored Cross-Site Scripting (XSS) in YouTube URL Embeds
+  - [ ] Summary: 
+    - Vulnerability types: XSS
+    - Tested in version: 4.1
+    - Fixed in version: 4.213
+  - [ ] GIF Walkthrough: 
+  - [ ] Steps to recreate: 
+      -Login
+      -Create a new post with any youtube link embed and append XSS payload at end (escaped)
+      -Ex: [embed src='https://youtube.com/embed/link\x3csvg onload=alert(1)\x3e'][/embed]
+  
 1. (Required) Vulnerability Name or ID
   - [ ] Summary: 
     - Vulnerability types:
@@ -13,8 +24,7 @@ Time spent: **X** hours spent in total
     - Fixed in version: 
   - [ ] GIF Walkthrough: 
   - [ ] Steps to recreate: 
-  - [ ] Affected source code:
-    - [Link 1](https://core.trac.wordpress.org/browser/tags/version/src/source_file.php)
+  
 1. (Required) Vulnerability Name or ID
   - [ ] Summary: 
     - Vulnerability types:
@@ -22,17 +32,7 @@ Time spent: **X** hours spent in total
     - Fixed in version: 
   - [ ] GIF Walkthrough: 
   - [ ] Steps to recreate: 
-  - [ ] Affected source code:
-    - [Link 1](https://core.trac.wordpress.org/browser/tags/version/src/source_file.php)
-1. (Required) Vulnerability Name or ID
-  - [ ] Summary: 
-    - Vulnerability types:
-    - Tested in version:
-    - Fixed in version: 
-  - [ ] GIF Walkthrough: 
-  - [ ] Steps to recreate: 
-  - [ ] Affected source code:
-    - [Link 1](https://core.trac.wordpress.org/browser/tags/version/src/source_file.php)
+  
 1. (Optional) Vulnerability Name or ID
   - [ ] Summary: 
     - Vulnerability types:
@@ -41,7 +41,7 @@ Time spent: **X** hours spent in total
   - [ ] GIF Walkthrough: 
   - [ ] Steps to recreate: 
   - [ ] Affected source code:
-    - [Link 1](https://core.trac.wordpress.org/browser/tags/version/src/source_file.php)
+  
 1. (Optional) Vulnerability Name or ID
   - [ ] Summary: 
     - Vulnerability types:
@@ -50,7 +50,7 @@ Time spent: **X** hours spent in total
   - [ ] GIF Walkthrough: 
   - [ ] Steps to recreate: 
   - [ ] Affected source code:
-    - [Link 1](https://core.trac.wordpress.org/browser/tags/version/src/source_file.php) 
+  
 
 ## Assets
 
