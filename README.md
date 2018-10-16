@@ -34,13 +34,16 @@ Time spent: **4** hours spent in total
     
     
   
-3. (Required) Vulnerability Name or ID
-  - [ ] Summary: 
-    - Vulnerability types:
-    - Tested in version:
-    - Fixed in version: 
+3. (Required) Unauthenticated Stored Cross-Site Scripting (XSS)
+  - [x] Summary: 
+    - Vulnerability types:XSS
+    - Tested in version:4.1
+    - Fixed in version: 4.1.2
   - [ ] GIF Walkthrough: 
-  - [ ] Steps to recreate: 
+  - [x] Steps to recreate: 
+    * Create post
+    * Comment on post with html tag with XSS payload inserted after the tag
+    * XSS payload will execute when viewed by user/admin
   
 1. (Optional) Vulnerability Name or ID
   - [ ] Summary: 
