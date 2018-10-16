@@ -11,7 +11,8 @@ Time spent: **4** hours spent in total
     - Vulnerability types: XSS
     - Tested in version: 4.1
     - Fixed in version: 4.213
-  - [ ] GIF Walkthrough: 
+  - [x] GIF Walkthrough: <img src='https://imgur.com/a/DC9dCA2.gif' title='GIF Walkthrough' width='800' alt='GIF Walkthrough' />
+  
   - [x] Steps to recreate: 
     * Login
     * Create a new post with any youtube link embed and append XSS payload at end (escaped)
