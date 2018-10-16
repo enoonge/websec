@@ -40,7 +40,7 @@ Time spent: **4** hours spent in total
     - Vulnerability types:XSS
     - Tested in version:4.1
     - Fixed in version: 4.1.2
-  - [ ] GIF Walkthrough: 
+  - [x] GIF Walkthrough: <img src='https://i.imgur.com/XzH9KOZ.gif' title='GIF Walkthrough' width='800' alt='GIF Walkthrough' />
   - [x] Steps to recreate: 
     * Create post
     * Comment on post with html tag with XSS payload inserted after the tag
