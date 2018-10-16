@@ -21,16 +21,16 @@ Time spent: **4** hours spent in total
     - [Link 1](https://github.com/WordPress/WordPress/commit/f72b21af23da6b6d54208e5c1d65ececdaa109c8)
   
 2. (Required) Authenticated Stored Cross-Site Scripting (XSS Shortcode)
-  - [ ] Summary: 
+  - [x] Summary: 
     - Vulnerability types:XSS
     - Tested in version:4.1
     - Fixed in version: 4.2.3
   - [ ] GIF Walkthrough: 
-  - [ ] Steps to recreate: 
+  - [x] Steps to recreate: 
     * Make a new text post
     * Escape HTML tag with shortcode tag and insert XSS payload
   - [x] Affected source code:
-    - [Link 2](https://github.com/WordPress/WordPress/commit/f72b21af23da6b6d54208e5c1d65ececdaa109c8)
+    - [Link 1](https://github.com/WordPress/WordPress/commit/f72b21af23da6b6d54208e5c1d65ececdaa109c8)
     
     
   
