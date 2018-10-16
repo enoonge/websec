@@ -45,23 +45,6 @@ Time spent: **4** hours spent in total
     * Comment on post with html tag with XSS payload inserted after the tag
     * XSS payload will execute when viewed by user/admin
   
-1. (Optional) Vulnerability Name or ID
-  - [ ] Summary: 
-    - Vulnerability types:
-    - Tested in version:
-    - Fixed in version: 
-  - [ ] GIF Walkthrough: 
-  - [ ] Steps to recreate: 
-  - [ ] Affected source code:
-  
-1. (Optional) Vulnerability Name or ID
-  - [ ] Summary: 
-    - Vulnerability types:
-    - Tested in version:
-    - Fixed in version: 
-  - [ ] GIF Walkthrough: 
-  - [ ] Steps to recreate: 
-  - [ ] Affected source code:
   
 
 ## Assets
